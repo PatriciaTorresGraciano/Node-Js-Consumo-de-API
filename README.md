@@ -4,7 +4,7 @@
 
 <h3> Tecnologias 🚀 </h3>
 
-<table>
+<table border=0>
  <tr>
   <td> <a href="https://nodejs.org/en//"> <img src= "https://icongr.am/devicon/nodejs-original.svg?size=128&color=currentColor" width="50px" height="50px"></a><td>
   <td>  <a href="https://www.w3schools.com/html/"><img src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor" width="50px" height="50px"></a><td>
