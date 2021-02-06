@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Buscas </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        .conteudo img{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../cep/">Cep</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../cnpj/">CNPJ</a>
+            </li>
+          
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h3> Buscar endereço pelo CEP</h3>           
+            </div>
+    
+            <div class="card-body">
+                <form action="/envia-cep" method="POST">
+                    <div class="form-group">
+                              <label for="cep"> Digite o Cep: </label>
+                              <input class="form-control" type="text" name="cep" id="cep">
+                              <input type="submit" class="btn btn-outline-success mt-2" value="Buscar">
+                            
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
