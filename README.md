@@ -13,7 +13,7 @@
 <h2> Projeto em node que faz o consumo de duas APIs, sendo elas: </h2>
 <ul>
   <li>Api de CEP: que busca o endereço atraves do CEP.</li>
-  <li>Api de CNPJ: que busca o dados de uma determinada atraves do CNPJ informado.</li>
+  <li>Api de CNPJ: que busca os dados de uma determinada empresa atraves do CNPJ informado.</li>
 </ul>  
 
 <h2> Como usar </h2>
